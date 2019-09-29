@@ -11,6 +11,7 @@ class Scraper
     students = []
     binding.pry
     
+    
 # return students = [{:name =>, :location =>, :profile_url =>}, {}, etc.]
  end
  
