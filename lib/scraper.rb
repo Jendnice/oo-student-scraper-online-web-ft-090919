@@ -5,6 +5,7 @@ class Scraper
 
   def self.scrape_index_page(index_url)
     
+ # return [{:name =>, :location =>, :profile_url =>}, {}, etc.]
   end
 
   def self.scrape_profile_page(profile_url)
