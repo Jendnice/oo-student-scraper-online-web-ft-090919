@@ -9,7 +9,7 @@ class Scraper
   def self.scrape_index_page(index_url)
     page = Nokogiri::HTML(open(index_url))
     students = []
-    
+    binding.pry
 # return students = [{:name =>, :location =>, :profile_url =>}, {}, etc.]
  end
  
