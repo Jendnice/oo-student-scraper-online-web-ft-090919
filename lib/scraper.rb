@@ -52,11 +52,13 @@ end
       student[:blog] = link 
     else 
     end 
-    
   end 
+  student[:profile_quote] = 
+  student[:bio] = 
+end 
   
 # social = page.css("div.vitals-container div.social-icon-container a").attribute("href").value
-  if social_icons[0] do twitter = social_icons[0]
+ 
 # twitter = 
 # linkedin = 
 # github = 
