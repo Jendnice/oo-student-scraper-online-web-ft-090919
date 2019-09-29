@@ -29,10 +29,10 @@ class Scraper
     page.css 
    binding.pry 
   # return {:twitter => "url", :linkedin => "url", :github =>, :blog =>, :profile_quote =>, :bio =>}  
-  end
+  
   
 
-end
+
 
 # students: page.css("div.student-card").each do |student|
 # name: student.css("h4.student-name").text.
@@ -56,6 +56,9 @@ end
   student[:profile_quote] = page.css("div.profile-quote")
   student[:bio] =
   student 
+ end 
+ 
+ 
 end 
   
 # social = page.css("div.vitals-container div.social-icon-container a").attribute("href").value
