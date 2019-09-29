@@ -26,7 +26,7 @@ end
 
 # students: page.css("div.student-card").each do |student|
 # name: student.css("h4.student-name").text.
-# location:
+# location: student.css("p.student-location").text
 # profile_url: 
 
 # collection of courses: doc.css(".post")
