@@ -41,3 +41,7 @@ class Scraper
 
 end
 
+# students:
+# name: 
+# location:
+# profile_url: 
