@@ -6,12 +6,12 @@ require 'pry'
 
 class Scraper
 
- # def self.scrape_index_page(index_url)
-    # doc = Nokogiri::HTML(open(https://learn-co-curriculum.github.io/student-scraper-test-page/index.html))
- #   doc.css("")
+  def self.scrape_index_page(index_url)
+    page = Nokogiri::HTML(open(index_url))
+    students = []
     
- # return [{:name =>, :location =>, :profile_url =>}, {}, etc.]
- # end
+# return students = [{:name =>, :location =>, :profile_url =>}, {}, etc.]
+# end
  
  def self.scrape_index_page(index_url)
     page = Nokogiri::HTML(open(index_url))
