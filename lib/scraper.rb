@@ -67,5 +67,5 @@ end
 # linkedin = 
 # github = 
 # blog = 
-# profile_quote = 
+# profile_quote = page.css("div.profile-quote").text
 # bio = 
