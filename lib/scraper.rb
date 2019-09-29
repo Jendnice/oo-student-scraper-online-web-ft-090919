@@ -44,6 +44,12 @@ end
   social.each do |link| 
     if link.include?("twitter")
       student[:twitter] = link
+    elsif link.include?("linkedin")
+      student[:linkedin] = link 
+    elsif link.include?("github")
+      student[:github] = link 
+    elsif link.include?("blog")
+      student 
   
 # social = page.css("div.vitals-container div.social-icon-container a").attribute("href").value
   if social_icons[0] do twitter = social_icons[0]
