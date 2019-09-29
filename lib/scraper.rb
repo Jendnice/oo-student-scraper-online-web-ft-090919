@@ -23,7 +23,10 @@ class Scraper
  end
 
   def self.scrape_profile_page(profile_url)
+    page = Nokogiri::HTML(open(profile_url))
     
+  
+  # return {:name => "name", :bio =>, profile_quote =>, etc.}  
   end
 
 end
@@ -33,7 +36,4 @@ end
 # location: student.css("p.student-location").text
 # profile_url: student.css("a").attribute("href").value 
 
-# collection of courses: doc.css(".post")
-# title: doc.css(".post").first.css("h2").text
-# schedule: doc.css(".post").first.css(".date").text
-# description: doc.css(".post").first.css("p").text
+# twitter
