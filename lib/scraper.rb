@@ -69,3 +69,5 @@ def self.scrape_profile_page(profile_url)
       student[:bio] = page.css("div.description-holder p").text
       student
   end
+  
+end 
