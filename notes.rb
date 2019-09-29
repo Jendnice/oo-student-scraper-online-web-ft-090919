@@ -69,6 +69,7 @@ def self.scrape_index_page(index_url)
 
       # student[:profile_quote] = page.css(".profile-quote")
       # student[:bio] = page.css("div.description-holder p")
+      
       container = page.css(".social-icon-container a").collect{|icon| icon.attribute("href").value}
       container.each do |link|
         if link.include?("twitter")
