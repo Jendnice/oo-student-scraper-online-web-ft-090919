@@ -1,3 +1,4 @@
+require 'noko'
 require 'open-uri'
 require 'pry'
 
