@@ -23,7 +23,7 @@ class Scraper
 
 end
 
-# students: page.css(" ")
+# students: page.css("div.roster-cards-container")
 # name: 
 # location:
 # profile_url: 
