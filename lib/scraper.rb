@@ -54,7 +54,8 @@ end
     end 
   end 
   student[:profile_quote] = 
-  student[:bio] = 
+  student[:bio] =
+  student 
 end 
   
 # social = page.css("div.vitals-container div.social-icon-container a").attribute("href").value
