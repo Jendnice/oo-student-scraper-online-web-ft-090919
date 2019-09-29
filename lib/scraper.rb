@@ -12,12 +12,13 @@ class Scraper
 
    # page.css("div.roster-cards-container").each |student|
     
-    students << page.css("div.student-card").each do |student|
+    page.css("div.student-card").each do |student|
       student.name = student.css("h4.student-name").text
       student.location = student.css("p.student-location").text
       student.profile_url = student.css("a").attribute("href").value 
+      students << student 
     end 
-# return students = [{:name =>, :location =>, :profile_url =>}, {}, etc.]
+    students
  end
  
 
