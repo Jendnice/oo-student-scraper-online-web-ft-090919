@@ -13,9 +13,9 @@ class Scraper
    # page.css("div.roster-cards-container").each |student|
     
     page.css("div.student-card").each do |student|
-      student.name = student.css("h4.student-name").text
-      student.location = student.css("p.student-location").text
-      student.profile_url = student.css("a").attribute("href").value 
+      name = student.css("h4.student-name").text
+      location = student.css("p.student-location").text
+      profile_url = student.css("a").attribute("href").value 
       student_info = {:name => student.name, :location => student.location, :profile_url => student.profile_url}
       students << student_info  
     end 
