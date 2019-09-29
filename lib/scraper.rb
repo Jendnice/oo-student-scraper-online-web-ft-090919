@@ -39,7 +39,7 @@ end
 # location: student.css("p.student-location").text
 # profile_url: student.css("a").attribute("href").value 
   
-  social = page
+  social = page.css("div.vitals-container div.social-icon-container a").collect |icon| icon.attribute("href").value 
   
 # social = page.css("div.vitals-container div.social-icon-container a").attribute("href").value
   if social_icons[0] do twitter = social_icons[0]
