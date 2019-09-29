@@ -38,7 +38,7 @@ end
 # location: student.css("p.student-location").text
 # profile_url: student.css("a").attribute("href").value 
 
-# twitter = page.css 
+# twitter = page.css("div.vitals-container div.social-icon-container a").attribute("href").value
 # linkedin = 
 # github = 
 # blog = 
