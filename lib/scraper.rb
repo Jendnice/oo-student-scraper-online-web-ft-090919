@@ -25,6 +25,7 @@ class Scraper
 end
 
 # students: page.css("div.roster-cards-container")
+page.css("div.student-card").each do |student|
 # name: 
 # location:
 # profile_url: 
