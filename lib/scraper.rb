@@ -27,7 +27,7 @@ class Scraper
     student = {}
     binding.pry 
     page.css 
-  
+   binding.pry 
   # return {:twitter => "url", :linkedin => "url", :github =>, :blog =>, :profile_quote =>, :bio =>}  
   end
   
@@ -53,7 +53,7 @@ end
     else 
     end 
   end 
-  student[:profile_quote] = 
+  student[:profile_quote] = page.css("div.profile-quote")
   student[:bio] =
   student 
 end 
