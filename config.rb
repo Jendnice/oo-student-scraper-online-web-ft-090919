@@ -1,2 +1,3 @@
 require 'nokogiri'
-require 'open'
+require 'open-uri'
+require 'pry'
