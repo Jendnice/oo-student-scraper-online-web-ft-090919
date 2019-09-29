@@ -10,6 +10,7 @@ class Scraper
     page = Nokogiri::HTML(open(index_url))
     students = []
     binding.pry
+    
 # return students = [{:name =>, :location =>, :profile_url =>}, {}, etc.]
  end
  
