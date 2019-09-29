@@ -11,7 +11,7 @@ class Scraper
     students = []
     
 # return students = [{:name =>, :location =>, :profile_url =>}, {}, etc.]
-# end
+end
  
  def self.scrape_index_page(index_url)
     page = Nokogiri::HTML(open(index_url))
