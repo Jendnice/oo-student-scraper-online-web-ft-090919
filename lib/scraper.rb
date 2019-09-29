@@ -25,7 +25,7 @@ class Scraper
 end
 
 # students: page.css("div.student-card").each do |student|
-# name: 
+# name: student.css("h4.student-name").text.
 # location:
 # profile_url: 
 
