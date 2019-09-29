@@ -10,7 +10,7 @@ class Scraper
     page = Nokogiri::HTML(open(index_url))
     students = []
     binding.pry
-    
+    page.css("div.roster-cards-container").each |
     
 # return students = [{:name =>, :location =>, :profile_url =>}, {}, etc.]
  end
